@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
     sum += arrayOfNumbers[i];
   }
   return sum;
-    // return arrayOfNumbers.length;
+    return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -40,7 +40,7 @@ function countEvenNumbers(arrayOfNumbers) {
     }
   }
     return evenCount;
-    // return arrayOfNumbers.length;
+    return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
@@ -61,7 +61,7 @@ assignment.countEvenNumbers = countEvenNumbers;
 function celsiusToFahrenheit(arrayOfNumbers) {
   const fahrenheit = arrayOfNumbers.map(cel => Math.trunc((cel * (9/5)) + 32));
   return fahrenheit;
-    // return arrayOfNumbers;
+    return arrayOfNumbers;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
